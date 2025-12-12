@@ -1,0 +1,41 @@
+*{
+    margin: 0 auto;
+    max-width: 1440px;
+    font-family: 'Courier New', Courier, monospace;
+}
+header{
+    padding: 10px;
+    background-color: #6DD60A;
+    text-align: center;
+    color: #1CA3B4;
+}
+section{
+    max-width: 80%;
+    padding: 30px 0;
+}
+h1{
+    font-size: 60px;
+}
+h1,h2,h3,h4{
+    margin: 20px 0;
+}
+a{
+    color: greenyellow;
+    margin: 30px 0;
+}
+a:hover{
+    color: goldenrod;
+    font-weight: bold;
+}
+
+footer{
+    padding: 50px;
+    background-color: #1CA3B4;
+    display: flex;
+    justify-content: center;
+}
+footer p{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
