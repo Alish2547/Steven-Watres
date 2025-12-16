@@ -1,40 +1,56 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Sekuya&display=swap');
+
+* {
     margin: 0 auto;
     max-width: 1440px;
     font-family: 'Courier New', Courier, monospace;
 }
-header{
+
+header {
     padding: 10px;
     background-color: #6DD60A;
     text-align: center;
     color: #1CA3B4;
 }
-section{
+
+section {
     max-width: 80%;
     padding: 30px 0;
 }
-h1{
+
+h1 {
+
+    font-family: "Sekuya", system-ui;
+    font-weight: 400;
+    font-style: normal;
     font-size: 60px;
 }
-h1,h2,h3,h4{
+
+h1,
+h2,
+h3,
+h4 {
     margin: 20px 0;
 }
-a{
+
+a {
     color: greenyellow;
     margin: 30px 0;
 }
-a:hover{
+
+a:hover {
     color: goldenrod;
     font-weight: bold;
 }
 
-footer{
+footer {
     padding: 50px;
     background-color: #1CA3B4;
     display: flex;
     justify-content: center;
 }
-footer p{
+
+footer p {
     color: white;
     font-weight: bold;
     font-size: 25px;
